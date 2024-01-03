@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -24,7 +24,6 @@ let package = Package(
                 "Roboflow",
                 "SQLite",
                 "SimpleKeychain",
-                "cxxLibrary",
                 "CloneableResources"
             ]
         ),
@@ -43,84 +42,78 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Alamofire",
-            url: "https://files.cloneable.ai/0.2.01/Alamofire.xcframework.zip",
-            checksum: "78a11389939f7e552b042ca9fdb7bb4d8a4d0be248d82fd449237b13c540ddff"
+            url: "https://files.cloneable.ai/0.2.12/Alamofire.xcframework.zip",
+            checksum: "17f2406f79f9b9a09be3c3ddd6009a74a9cec8f019d71a56208887cf2462dd68"
         ),
         .binaryTarget(
             name: "AnyCodable",
-            url: "https://files.cloneable.ai/0.2.01/AnyCodable.xcframework.zip",
-            checksum: "94141753c7455e0afc0ac9a47d3780729cb824a2bc5f37320d51fb9d8f984b7d"
+            url: "https://files.cloneable.ai/0.2.12/AnyCodable.xcframework.zip",
+            checksum: "f630b5d6b5926657028b7d124a91bbe6c6aef39dfedc9898fe7afa30c7d8eaa2"
         ),
         .binaryTarget(
             name: "ArcGIS",
-            url: "https://files.cloneable.ai/0.2.01/ArcGIS.xcframework.zip",
-            checksum: "b0a8f29b544aa2da4d341d6fe3d8e6730ba883c6aa5331b4119823fb288d186d"
+            url: "https://files.cloneable.ai/0.2.12/ArcGIS.xcframework.zip",
+            checksum: "37403005c43b7a323c106ba78d597ef7abca548fb98979b17e53baabf05b9423"
         ),
         .binaryTarget(
             name: "Auth0",
-            url: "https://files.cloneable.ai/0.2.01/Auth0.xcframework.zip",
-            checksum: "0238f6b85d8dce653bec9df8ddd133a2248e89239f71c1e273a228052916fe17"
+            url: "https://files.cloneable.ai/0.2.12/Auth0.xcframework.zip",
+            checksum: "488ad97505b0faf7c72121d48021a3f79deb675093a17654ff8b72f79432b8c7"
         ),
         .binaryTarget(
             name: "CloneableCore",
-            url: "https://files.cloneable.ai/0.2.01/CloneableCore.xcframework.zip",
-            checksum: "d7b0966311f2c70bb6e32e7b271e054a1c114389a0e4549c1480ed0bac5d9c93"
+            url: "https://files.cloneable.ai/0.2.12/CloneableCore.xcframework.zip",
+            checksum: "b1da9fa0375cbccef9bd671178cff450156fa0b1f6a0fefe07c2bb2fa8de68fd"
         ),
         .binaryTarget(
             name: "CloneablePlatformiOS",
-            url: "https://files.cloneable.ai/0.2.01/CloneablePlatformiOS.xcframework.zip",
-            checksum: "0afa3e48bfc22e3d4defb1669b4c483206b6fee7f049b33665871f1b98062e1f"
+            url: "https://files.cloneable.ai/0.2.12/CloneablePlatformiOS.xcframework.zip",
+            checksum: "52d0feae361f6de8c36824fd6ccdd82f43ce764189a91fd9b6d878836f51194a"
         ),
         .binaryTarget(
             name: "Cloneable_Swift_Client",
-            url: "https://files.cloneable.ai/0.2.01/Cloneable_Swift_Client.xcframework.zip",
-            checksum: "2f6fb92f62b23bb1b9989242de1667650053eff9195e79f90aa2e136b59acd46"
+            url: "https://files.cloneable.ai/0.2.12/Cloneable_Swift_Client.xcframework.zip",
+            checksum: "0a367b044fc3918e2e1493c8ed4e08518d91fa6542748703b41101fe89b043b3"
         ),
         .binaryTarget(
             name: "CoreArcGIS",
-            url: "https://files.cloneable.ai/0.2.01/CoreArcGIS.xcframework.zip",
-            checksum: "a9693f3389fe4a78498ad42ea74973b7727cdb30bb42d9ae8227c2d1a0b42cc2"
+            url: "https://files.cloneable.ai/0.2.12/CoreArcGIS.xcframework.zip",
+            checksum: "13d99b7d81ff4252a34ce9cd446e7fa10039e90458538c1f207c06e51079cc80"
         ),
         .binaryTarget(
             name: "JWTDecode",
-            url: "https://files.cloneable.ai/0.2.01/JWTDecode.xcframework.zip",
-            checksum: "f71a8b97df96df4df5e529b4d4a5d9b23ddfec1c810212cfe231eac9155dc6d0"
+            url: "https://files.cloneable.ai/0.2.12/JWTDecode.xcframework.zip",
+            checksum: "eeb975658d2da05824de4738d7a1305a2edddf736576bf77f38e97cdc00bd851"
         ),
         .binaryTarget(
             name: "JXKit",
-            url: "https://files.cloneable.ai/0.2.01/JXKit.xcframework.zip",
-            checksum: "2430a73997cfced87fbeeeb18be2a3f6d947c89c57b95cdf867fd9f4ad06e69a"
+            url: "https://files.cloneable.ai/0.2.12/JXKit.xcframework.zip",
+            checksum: "ec081d370532e09df74168cdcb125133135a6de24ef507337381e6eb801710f6"
         ),
         .binaryTarget(
             name: "MCByteTrack",
-            url: "https://files.cloneable.ai/0.2.01/MCByteTrack.xcframework.zip",
-            checksum: "bd8dba0fd56c6d28f965bcacbdabd9129f710a4420fcbb2bb6fca38c44df4c54"
+            url: "https://files.cloneable.ai/0.2.12/MCByteTrack.xcframework.zip",
+            checksum: "4d97a8a26ccc9d13474911cdc1a0ceb7138470849a7e18f1865c592dd87cc877"
         ),
         .binaryTarget(
             name: "PopupView",
-            url: "https://files.cloneable.ai/0.2.01/PopupView.xcframework.zip",
-            checksum: "7a4f345a9830cd4ff15832448c3858e0c91d31fcc0523105678b55e240acbeea"
+            url: "https://files.cloneable.ai/0.2.12/PopupView.xcframework.zip",
+            checksum: "4353a0443f1f9e52dd34dd27108a33f8eb9cb9efffae735579b1353c98b923be"
         ),
         .binaryTarget(
             name: "Roboflow",
-            url: "https://files.cloneable.ai/0.2.01/Roboflow.xcframework.zip",
-            checksum: "6b7e39313acf280dfe8859c52e089d350dfbaaf07b68e6dd34191c1ac1a39c3e"
+            url: "https://files.cloneable.ai/0.2.12/Roboflow.xcframework.zip",
+            checksum: "2cd24f0bed98895c3c3c4d95a50348cdf247de2b282ccf62840739936c2db587"
         ),
         .binaryTarget(
             name: "SQLite",
-            url: "https://files.cloneable.ai/0.2.01/SQLite.xcframework.zip",
-            checksum: "f1c725d5df6855c4dfde3e0081076bdf0d956faedfbff11445a4efe589230ea0"
+            url: "https://files.cloneable.ai/0.2.12/SQLite.xcframework.zip",
+            checksum: "53ce04fa683cd0010f0999cb2dec0d9df4bb799de81cd2cd54ce07c4f807bb2c"
         ),
         .binaryTarget(
             name: "SimpleKeychain",
-            url: "https://files.cloneable.ai/0.2.01/SimpleKeychain.xcframework.zip",
-            checksum: "a5ba0d42d5b14c581d336a506ce37b4ae3193242d6fa26644cddb8311d6c0aea"
-        ),
-        .binaryTarget(
-            name: "cxxLibrary",
-            url: "https://files.cloneable.ai/0.2.01/cxxLibrary.xcframework.zip",
-            checksum: "2acf05ebf45fb35a5320d54aad3e123e446b25bfe51af2700c7371381c1fbcaa"
+            url: "https://files.cloneable.ai/0.2.12/SimpleKeychain.xcframework.zip",
+            checksum: "987cd24875d481889985e89ae370a45a80b03b8e8c44bc08414e675045b60e4b"
         )
-
     ]
 )
