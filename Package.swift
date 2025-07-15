@@ -5,26 +5,36 @@ import PackageDescription
 
 let package = Package(
     name: "Cloneable-iOS-SDK",
+    platforms: [.iOS(.v17)],
     products: [
         .library(
             name: "Cloneable-iOS-SDK",
             targets: [
                 "Alamofire",
                 "AnyCodable",
-                "ArcGIS",
-                "Auth0",
+                "Cloneable_Swift_Client",
                 "CloneableCore",
                 "CloneablePlatformiOS",
-                "Cloneable_Swift_Client",
-                "CoreArcGIS",
-                "JWTDecode",
+                "CustomMenuKit",
+                "HaishinKit",
+                "JSON",
+                "jsonlogic",
                 "JXKit",
+                "Logboard",
                 "MCByteTrack",
-                "PopupView",
-                "Roboflow",
+                "PhoneNumberKit",
+                "RecaptchaEnterprise",
+                "RecaptchaEnterpriseSDK",
+                "RecaptchaEnterpriseWrapper",
+                "RecaptchaInterop",
+                "SearchView",
                 "SQLite",
-                "SimpleKeychain",
-                "cxxLibrary",
+                "stytch_ios_dfp",
+                "StytchCore",
+                "StytchDFP",
+                "StytchUI",
+                "SwiftPMSupport",
+                "SwiftyJSON",
                 "CloneableResources"
             ]
         ),
@@ -41,85 +51,131 @@ let package = Package(
                 .copy("default.metallib")
             ]
         ),
+
         .binaryTarget(
             name: "Alamofire",
-            url: "https://files.cloneable.ai/0.2.01/Alamofire.xcframework.zip",
-            checksum: "78a11389939f7e552b042ca9fdb7bb4d8a4d0be248d82fd449237b13c540ddff"
+            url: "https://files.cloneable.ai/0.2.20/Alamofire.xcframework.zip",
+            checksum: "98a62e871dbb4b6ff936579e9bde6b3f57e128775f00851e0e7940bc9f02592d"
         ),
         .binaryTarget(
             name: "AnyCodable",
-            url: "https://files.cloneable.ai/0.2.01/AnyCodable.xcframework.zip",
-            checksum: "94141753c7455e0afc0ac9a47d3780729cb824a2bc5f37320d51fb9d8f984b7d"
-        ),
-        .binaryTarget(
-            name: "ArcGIS",
-            url: "https://files.cloneable.ai/0.2.01/ArcGIS.xcframework.zip",
-            checksum: "b0a8f29b544aa2da4d341d6fe3d8e6730ba883c6aa5331b4119823fb288d186d"
-        ),
-        .binaryTarget(
-            name: "Auth0",
-            url: "https://files.cloneable.ai/0.2.01/Auth0.xcframework.zip",
-            checksum: "0238f6b85d8dce653bec9df8ddd133a2248e89239f71c1e273a228052916fe17"
-        ),
-        .binaryTarget(
-            name: "CloneableCore",
-            url: "https://files.cloneable.ai/0.2.01/CloneableCore.xcframework.zip",
-            checksum: "d7b0966311f2c70bb6e32e7b271e054a1c114389a0e4549c1480ed0bac5d9c93"
-        ),
-        .binaryTarget(
-            name: "CloneablePlatformiOS",
-            url: "https://files.cloneable.ai/0.2.01/CloneablePlatformiOS.xcframework.zip",
-            checksum: "0afa3e48bfc22e3d4defb1669b4c483206b6fee7f049b33665871f1b98062e1f"
+            url: "https://files.cloneable.ai/0.2.20/AnyCodable.xcframework.zip",
+            checksum: "5da37e5c80cec3660e1011392292d0f001b6cabad4c20350189aac393d89bf27"
         ),
         .binaryTarget(
             name: "Cloneable_Swift_Client",
-            url: "https://files.cloneable.ai/0.2.01/Cloneable_Swift_Client.xcframework.zip",
-            checksum: "2f6fb92f62b23bb1b9989242de1667650053eff9195e79f90aa2e136b59acd46"
+            url: "https://files.cloneable.ai/0.2.20/Cloneable_Swift_Client.xcframework.zip",
+            checksum: "ab215127f99d2383a872e61b298fbd5ba0bfbc1cdea7d6f9f197c430b47ba2d4"
         ),
         .binaryTarget(
-            name: "CoreArcGIS",
-            url: "https://files.cloneable.ai/0.2.01/CoreArcGIS.xcframework.zip",
-            checksum: "a9693f3389fe4a78498ad42ea74973b7727cdb30bb42d9ae8227c2d1a0b42cc2"
+            name: "CloneableCore",
+            url: "https://files.cloneable.ai/0.2.20/CloneableCore.xcframework.zip",
+            checksum: "224fbd89c7d0b955311b0d3422fbdc1582ead85eaa93510d0aaf8470f60af7c0"
         ),
         .binaryTarget(
-            name: "JWTDecode",
-            url: "https://files.cloneable.ai/0.2.01/JWTDecode.xcframework.zip",
-            checksum: "f71a8b97df96df4df5e529b4d4a5d9b23ddfec1c810212cfe231eac9155dc6d0"
+            name: "CloneablePlatformiOS",
+            url: "https://files.cloneable.ai/0.2.20/CloneablePlatformiOS.xcframework.zip",
+            checksum: "487e4d756a93b1f00132beed68965ac7d2ba3b1ea124d1ce9d323f74736daffa"
+        ),
+        .binaryTarget(
+            name: "CustomMenuKit",
+            url: "https://files.cloneable.ai/0.2.20/CustomMenuKit.xcframework.zip",
+            checksum: "8f452fb8489460014299c550947d03dfcbc9da5635a72f573b01250250cfeb03"
+        ),
+        .binaryTarget(
+            name: "HaishinKit",
+            url: "https://files.cloneable.ai/0.2.20/HaishinKit.xcframework.zip",
+            checksum: "b8eb18df25715b451273037b38aebf593447b825808d457f77cc741eb43166cb"
+        ),
+        .binaryTarget(
+            name: "JSON",
+            url: "https://files.cloneable.ai/0.2.20/JSON.xcframework.zip",
+            checksum: "4ffefd52459bc070cf0da804a8e4aa84aa143514dc97da7aba46a1a7ebd64d9a"
+        ),
+        .binaryTarget(
+            name: "jsonlogic",
+            url: "https://files.cloneable.ai/0.2.20/jsonlogic.xcframework.zip",
+            checksum: "3b3e2ca66c3f4ae7e0c2695b7251ec875b28d6270ff81aa3612ed97c1519c520"
         ),
         .binaryTarget(
             name: "JXKit",
-            url: "https://files.cloneable.ai/0.2.01/JXKit.xcframework.zip",
-            checksum: "2430a73997cfced87fbeeeb18be2a3f6d947c89c57b95cdf867fd9f4ad06e69a"
+            url: "https://files.cloneable.ai/0.2.20/JXKit.xcframework.zip",
+            checksum: "1a02331e69a20915e6d6a48add8968c23ffce7f0cafe0cacf94a352aaeafed71"
+        ),
+        .binaryTarget(
+            name: "Logboard",
+            url: "https://files.cloneable.ai/0.2.20/Logboard.xcframework.zip",
+            checksum: "0238ac70f7bf7fc05b595b7bbba7dc6ad326e661a7c288e3cff0e0598cfeef77"
         ),
         .binaryTarget(
             name: "MCByteTrack",
-            url: "https://files.cloneable.ai/0.2.01/MCByteTrack.xcframework.zip",
-            checksum: "bd8dba0fd56c6d28f965bcacbdabd9129f710a4420fcbb2bb6fca38c44df4c54"
+            url: "https://files.cloneable.ai/0.2.20/MCByteTrack.xcframework.zip",
+            checksum: "8f54e39e005f0c7b141b59909c666f695fd13a83cb3b53a8b239007a1e31fd09"
         ),
         .binaryTarget(
-            name: "PopupView",
-            url: "https://files.cloneable.ai/0.2.01/PopupView.xcframework.zip",
-            checksum: "7a4f345a9830cd4ff15832448c3858e0c91d31fcc0523105678b55e240acbeea"
+            name: "PhoneNumberKit",
+            url: "https://files.cloneable.ai/0.2.20/PhoneNumberKit.xcframework.zip",
+            checksum: "85d9a967db9304119015980cacb582570aec106e6aeb2e06986b3920d7d26763"
         ),
         .binaryTarget(
-            name: "Roboflow",
-            url: "https://files.cloneable.ai/0.2.01/Roboflow.xcframework.zip",
-            checksum: "6b7e39313acf280dfe8859c52e089d350dfbaaf07b68e6dd34191c1ac1a39c3e"
+            name: "RecaptchaEnterprise",
+            url: "https://files.cloneable.ai/0.2.20/RecaptchaEnterprise.xcframework.zip",
+            checksum: "8348be3f7d429bdfa84acf523231284db0707b9ab9306a0922240e342bc246f0"
+        ),
+        .binaryTarget(
+            name: "RecaptchaEnterpriseSDK",
+            url: "https://files.cloneable.ai/0.2.20/RecaptchaEnterpriseSDK.xcframework.zip",
+            checksum: "583568235b90e16bf1c8dcd364aed92c8970d2d1c9be04074a7a53ab4ac6638e"
+        ),
+        .binaryTarget(
+            name: "RecaptchaEnterpriseWrapper",
+            url: "https://files.cloneable.ai/0.2.20/RecaptchaEnterpriseWrapper.xcframework.zip",
+            checksum: "dcc3b2c70582de82abc980d94577b65210c0010262b47b32cfca9e516bb3e3d5"
+        ),
+        .binaryTarget(
+            name: "RecaptchaInterop",
+            url: "https://files.cloneable.ai/0.2.20/RecaptchaInterop.xcframework.zip",
+            checksum: "c3bba35c1aa284e32386de5820d2b83abb97565e44e0f01732060b29f0a7056b"
+        ),
+        .binaryTarget(
+            name: "SearchView",
+            url: "https://files.cloneable.ai/0.2.20/SearchView.xcframework.zip",
+            checksum: "20700f5e963560f389211f70f56067bc8429f8795f2f6c366c9067fe2f16d45e"
         ),
         .binaryTarget(
             name: "SQLite",
-            url: "https://files.cloneable.ai/0.2.01/SQLite.xcframework.zip",
-            checksum: "f1c725d5df6855c4dfde3e0081076bdf0d956faedfbff11445a4efe589230ea0"
+            url: "https://files.cloneable.ai/0.2.20/SQLite.xcframework.zip",
+            checksum: "968ed669fecc166d58527c2869b164fa889c9ed1df8846c53b6b649d5573fb67"
         ),
         .binaryTarget(
-            name: "SimpleKeychain",
-            url: "https://files.cloneable.ai/0.2.01/SimpleKeychain.xcframework.zip",
-            checksum: "a5ba0d42d5b14c581d336a506ce37b4ae3193242d6fa26644cddb8311d6c0aea"
+            name: "stytch_ios_dfp",
+            url: "https://files.cloneable.ai/0.2.20/stytch_ios_dfp.xcframework.zip",
+            checksum: "eac39120ed8a2011d1452ec43b3b188c623c44c20802b7fdda0f333560c2c491"
         ),
         .binaryTarget(
-            name: "cxxLibrary",
-            url: "https://files.cloneable.ai/0.2.01/cxxLibrary.xcframework.zip",
-            checksum: "2acf05ebf45fb35a5320d54aad3e123e446b25bfe51af2700c7371381c1fbcaa"
+            name: "StytchCore",
+            url: "https://files.cloneable.ai/0.2.20/StytchCore.xcframework.zip",
+            checksum: "e41b84a3fdf7bd3501d511d2734063e8dda6c2eb93898a1f7c6d1c4918758da9"
+        ),
+        .binaryTarget(
+            name: "StytchDFP",
+            url: "https://files.cloneable.ai/0.2.20/StytchDFP.xcframework.zip",
+            checksum: "faa031a1de4d917f73ef4f1a3ca6fd7ddf08439a2004b34aac307acc711ea5e4"
+        ),
+        .binaryTarget(
+            name: "StytchUI",
+            url: "https://files.cloneable.ai/0.2.20/StytchUI.xcframework.zip",
+            checksum: "0b60e523bc42202600ca5765eac50f65b82999bb7500a35de0f47d31672ff678"
+        ),
+        .binaryTarget(
+            name: "SwiftPMSupport",
+            url: "https://files.cloneable.ai/0.2.20/SwiftPMSupport.xcframework.zip",
+            checksum: "af66ec55b16f9385fc1c45bd1a1e4b50ead5cd3fb2a13c98fd7d3063dd5aa614"
+        ),
+        .binaryTarget(
+            name: "SwiftyJSON",
+            url: "https://files.cloneable.ai/0.2.20/SwiftyJSON.xcframework.zip",
+            checksum: "c4bd411f785e6dc285ec9ab4ba55b658b21a72b9f2c75fa2183bd3a5226b28ee"
         )
 
     ]
