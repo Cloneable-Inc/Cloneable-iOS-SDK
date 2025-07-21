@@ -9,7 +9,16 @@ let package = Package(
     products: [
         .library(
             name: "CloneablePlatformiOS",
-            targets: ["CloneablePlatformiOS", "CloneableResources"]
+            targets: [
+                "Alamofire",
+                "CloneableCore", 
+                "CloneablePlatformiOS",
+                "Cloneable_Swift_Client",
+                "CustomMenuKit",
+                "JXKit",
+                "SQLite",
+                "CloneableResources"
+            ]
         ),
     ],
     targets: [
