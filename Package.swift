@@ -8,7 +8,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "CloneablePlatformiOS",
+            name: "Cloneable-iOS-SDK",
             targets: [
                 "Alamofire",
                 "CloneableCore", 
