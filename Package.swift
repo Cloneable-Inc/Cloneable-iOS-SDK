@@ -36,9 +36,9 @@ let package = Package(
         .target(
             name: "CloneableResources",
             dependencies: ["CloneablePlatformiOS"],
-            path: "Sources/CloneableResources",
             resources: [
-                .process(".")
+                .copy("Assets.car"),
+                .copy("default.metallib")
             ]
         )
     ]
