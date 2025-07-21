@@ -33,6 +33,21 @@ let package = Package(
             url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/v0.3.10/CustomMenuKit.xcframework.zip",
             checksum: "323803e9a42211af91a8e411e85692f34443805edaf4bab22c2c0278094ab4b9"
         ),
+        .binaryTarget(
+            name: "Alamofire",
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/v0.3.10/Alamofire.xcframework.zip",
+            checksum: "0b23fdba213d4088cc04219b6b3f0fbd5d1e7f9236213469b96058c439b9c296"
+        ),
+        .binaryTarget(
+            name: "Cloneable_Swift_Client",
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/v0.3.10/Cloneable_Swift_Client.xcframework.zip",
+            checksum: "5fbb87fdf2ab3425a6289617689dcd19b3cf7198ba83f524b5e852384f3c4ce5"
+        ),
+        .binaryTarget(
+            name: "SQLite",
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/v0.3.10/SQLite.xcframework.zip",
+            checksum: "e8ce658734743c92004efcaadf601c5d72d01aab68adff1bd56ba89f4d38250d"
+        ),
         .target(
             name: "CloneableResources",
             dependencies: ["CloneablePlatformiOS"],
