@@ -12,7 +12,7 @@ let package = Package(
             targets: [
                 "Alamofire",
                 "CloneableCore",
-                "CloneablePlatformiOS", 
+                "CloneablePlatformiOS",
                 "Cloneable_Swift_Client",
                 "CustomMenuKit",
                 "JXKit",
@@ -24,38 +24,38 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CloneablePlatformiOS",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/CloneablePlatformiOS.xcframework.zip",
-            checksum: "459358627e60533fa1d75ec53af1c5f74ad1257800ae3d311933a29d0ba9d86b"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/CloneablePlatformiOS.xcframework.zip",
+            checksum: "2d1421b579ae95e61b8fa51ca575b47ca73e2199fff39f2805a5e1816a6774e1"
         ),
         .binaryTarget(
-            name: "CloneableCore", 
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/CloneableCore.xcframework.zip",
-            checksum: "5736c00e8faac41dc921921a017325caf0070b5bf16712008a35be11aa748d17"
+            name: "CloneableCore",
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/CloneableCore.xcframework.zip",
+            checksum: "da24763c15e9b1caf87dfd35b0ebc5a0d65bf785bcfb74cbeb9fe7157db6d19d"
         ),
         .binaryTarget(
             name: "JXKit",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/JXKit.xcframework.zip", 
-            checksum: "afb25cf4cd968b14495e317251c42b482df00a57c89f2d7ce33c34e3ba3dd036"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/JXKit.xcframework.zip",
+            checksum: "52f5109d0de3515071e91a0d0f7887c33fd5d40ce469c09c355b44453b9fe76c"
         ),
         .binaryTarget(
             name: "CustomMenuKit",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/CustomMenuKit.xcframework.zip",
-            checksum: "f2933b19da959a37c157e7a3e0b877ba48f33cd6eccfc57baa2d2385c1142d77"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/CustomMenuKit.xcframework.zip",
+            checksum: "878b0abe8537b0fe0913030e027e7662ab9813875c4dd46e77568b2a43d43c9e"
         ),
         .binaryTarget(
             name: "Alamofire",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/Alamofire.xcframework.zip",
-            checksum: "ca13fdb07e813e6250485a108bfbf4bdd493a2bf013d2cab468fdb94f6ab406d"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/Alamofire.xcframework.zip",
+            checksum: "980fe53a8f553d2f0891874abfdbeffb0f97757df63f9ae393a242a8d718cb63"
         ),
         .binaryTarget(
             name: "Cloneable_Swift_Client",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/Cloneable_Swift_Client.xcframework.zip",
-            checksum: "63099422c515416a73312c5aa393afac95c6b96f26105c587f7559cd13b53650"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/Cloneable_Swift_Client.xcframework.zip",
+            checksum: "0fdaf66769b703077ba04b7fcac70739d39f4ce2b2170a4eb5a0ca205cf9ab1c"
         ),
         .binaryTarget(
             name: "SQLite",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.6/SQLite.xcframework.zip",
-            checksum: "951ad10a53d0840bf3fd8e002ebaa42db72b37b61598852020c4921a4d0ae8ff"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.0.10/SQLite.xcframework.zip",
+            checksum: "96538dd5d50bc55d952d081b93521d40ef9d086bab65f452b1494c920e4c4854"
         ),
         .target(
             name: "CloneableResources",
