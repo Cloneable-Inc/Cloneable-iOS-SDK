@@ -50,9 +50,9 @@ full Cloneable platform surface:
 
 - Utility map (Mapbox) with feature bottom sheets and polyline drawing/editing
 - Utility measurement workflows (pole, midspan, guy) with AR + photogrammetry
-- AI attachment / scale-target detection (Roboflow) — set
-  `CloneablePlatform.roboflowApiKey` before initializing the platform to
-  enable model download and on-device inference
+- AI attachment / scale-target detection — the RF-DETR models ship inside
+  the SDK and load automatically; no Roboflow account or API key required.
+  (Optionally set `CloneablePlatform.roboflowApiKey` to pull model updates.)
 - Offline-first data sync engine and workflow runtime
 
 Authentication is API-key based (`CloneablePlatform(authType: .api, apiKey:)`).
