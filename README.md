@@ -6,7 +6,8 @@ This guide will walk you through the steps to incorporate the Cloneable-iOS-SDK 
 
 Before you begin, ensure you have the following prerequisites:
 
-- Xcode (11.0 or later)
+- Xcode 16 or later
+- iOS 17.0+ deployment target
 - An existing Swift app project
 - Internet connection
 
@@ -40,4 +41,20 @@ To start using the Cloneable-iOS-SDK in your Swift code, you need to import the 
 
 ```swift
 import CloneablePlatformiOS
+```
 
+## What's included (2.0.0)
+
+The SDK is distributed as prebuilt, signed XCFrameworks and now includes the
+full Cloneable platform surface:
+
+- Utility map (Mapbox) with feature bottom sheets and polyline drawing/editing
+- Utility measurement workflows (pole, midspan, guy) with AR + photogrammetry
+- AI attachment / scale-target detection — the RF-DETR models ship inside
+  the SDK and load automatically; no Roboflow account or API key required.
+  (Optionally set `CloneablePlatform.roboflowApiKey` to pull model updates.)
+- Offline-first data sync engine and workflow runtime
+
+Authentication is API-key based (`CloneablePlatform(authType: .api, apiKey:)`).
+The Stytch first-party login UI and Intercom support chat from the Cloneable
+apps are not part of the SDK.
