@@ -43,7 +43,7 @@ To start using the Cloneable-iOS-SDK in your Swift code, you need to import the 
 import CloneablePlatformiOS
 ```
 
-## What's included (1.4.9)
+## What's included (1.4.10)
 
 The SDK is distributed as prebuilt, signed XCFrameworks and now includes the
 full Cloneable platform surface:

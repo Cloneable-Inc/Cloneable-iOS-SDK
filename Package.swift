@@ -35,103 +35,103 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Alamofire",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/Alamofire.xcframework.zip",
-            checksum: "ec216575bec768ff965a74b56904c499ee2c3d9cec0dc3806394653f8bbd4272"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/Alamofire.xcframework.zip",
+            checksum: "b400e58e546364f0e294a10f89af1fefbfeddfd4c699992c2ab3e37f61952bd1"
         ),
         .binaryTarget(
             name: "CloneableCore",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/CloneableCore.xcframework.zip",
-            checksum: "a04e870732e57b3a4bb41fd93029d078388481fd296d14e1d70ff6c6729b0067"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/CloneableCore.xcframework.zip",
+            checksum: "79cc1f9b91ba1b2aa9af97bd1414fb8a03e48b216b9ddeffff3e39858371a893"
         ),
         .binaryTarget(
             name: "CloneableMapLogic",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/CloneableMapLogic.xcframework.zip",
-            checksum: "40ec689995c8fd50f6a11cef1baed459e1db2fb4827203f97c2e7158f26c871a"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/CloneableMapLogic.xcframework.zip",
+            checksum: "6f77b2a3534a7089738d79d0225eb3b1893df91efff94ae96a55f972018bd5f8"
         ),
         .binaryTarget(
             name: "CloneablePlatformiOS",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/CloneablePlatformiOS.xcframework.zip",
-            checksum: "357ec27f4c8a15c71a4648cbb791f3105e9f8ea795e7b0f542ce3a426c705368"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/CloneablePlatformiOS.xcframework.zip",
+            checksum: "3c5e3cdba297f8309b58602fafd5758554f4d98ec49a1c53a3504011969927af"
         ),
         .binaryTarget(
             name: "Cloneable_Swift_Client",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/Cloneable_Swift_Client.xcframework.zip",
-            checksum: "aa1c46b15a2c212645169884cf89f93bac12c58fb3d79095ea4f9cb70d6b1f11"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/Cloneable_Swift_Client.xcframework.zip",
+            checksum: "73d3d2f436be5dcb40eecd34500904b8be73aed9b0f08e6f61f51479c48c124e"
         ),
         .binaryTarget(
             name: "CustomMenuKit",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/CustomMenuKit.xcframework.zip",
-            checksum: "0f26a25e4a9c0020bd6cffd2b8b6e34db4cab0396316f7f4a724b4b5546305b7"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/CustomMenuKit.xcframework.zip",
+            checksum: "1546ae21a8133a0982c29d0dc1c599c17d164320c15c25943fcfdac9af21d126"
         ),
         .binaryTarget(
             name: "JSON",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/JSON.xcframework.zip",
-            checksum: "611aed3933206e75884ac8bb1ffcc11723310798d7681a536ec99f2e867e72da"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/JSON.xcframework.zip",
+            checksum: "25c3e7d9d3d3c84d8ec38d00772b2e4b08a220a43bbe47bcf5b3080d062cfc41"
         ),
         .binaryTarget(
             name: "JXKit",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/JXKit.xcframework.zip",
-            checksum: "54b5343b4b93b854908c35dfe976550f93581ffbb855f9e30cca3a53b34e79f6"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/JXKit.xcframework.zip",
+            checksum: "94fe347d6058bc7ac5306b8b441a397872ddfe918696aefbd6a4c57082c34fe5"
         ),
         .binaryTarget(
             name: "MapboxCommon",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/MapboxCommon.xcframework.zip",
-            checksum: "b433adcdd5bc22c49f740be1cc874672766567d17e05d74308ea97d9883a634c"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/MapboxCommon.xcframework.zip",
+            checksum: "57941be2bfd0713a0c6db39b1f47ce7757e6985f389d33ed4733cede1d58a918"
         ),
         .binaryTarget(
             name: "MapboxCommonWrapper",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/MapboxCommonWrapper.xcframework.zip",
-            checksum: "469795b99f7114a57aa2a31fc2101ad547f92575866fb012b71c83c1a5040ed5"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/MapboxCommonWrapper.xcframework.zip",
+            checksum: "bb8d54ed08a13b2218a12a68eec2c4d9da2625ef2b4fabb1fa6aaa71bd9feba9"
         ),
         .binaryTarget(
             name: "MapboxCoreMaps",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/MapboxCoreMaps.xcframework.zip",
-            checksum: "c7e578a74cd740dcbcf99406458eccc3a5f6bae643be3ed0bbea2a3b0b4a0d9d"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/MapboxCoreMaps.xcframework.zip",
+            checksum: "b711da2b3393f60b4fc90291d3debc645771f178537f8485a5fe4a6f55773f61"
         ),
         .binaryTarget(
             name: "MapboxCoreMapsWrapper",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/MapboxCoreMapsWrapper.xcframework.zip",
-            checksum: "acfb18c2d84d5f9b987ed417be0cc2d0c800f41b143d35f32cc88f34c48c00fe"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/MapboxCoreMapsWrapper.xcframework.zip",
+            checksum: "99b3edf78bdcd0ef686e9eba7d36f3384758189dc2505f0ef3b80773c3dbda56"
         ),
         .binaryTarget(
             name: "MapboxMaps",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/MapboxMaps.xcframework.zip",
-            checksum: "cdbadeb18e09f5bd8d165f5a35800f833feb119a4f7abee404f05e9a84cd87c2"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/MapboxMaps.xcframework.zip",
+            checksum: "97d3e16fc44047a9ee3981e35a62029de3efd768b062f128481e43c24bdc7f29"
         ),
         .binaryTarget(
             name: "PopupView",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/PopupView.xcframework.zip",
-            checksum: "8498adac6ed0db02bf87c7e89872d80c2a4873c2f90e68274369b15df20f91c2"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/PopupView.xcframework.zip",
+            checksum: "8edab22ab47aa33cafe30187799ac561eaa6cdcd6de20158564b2fe9568c80be"
         ),
         .binaryTarget(
             name: "Roboflow",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/Roboflow.xcframework.zip",
-            checksum: "271c1acec748000af04ea49184eb9d22373006b9561e2bb228f25dcac53618ad"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/Roboflow.xcframework.zip",
+            checksum: "68471fc6860a352a068a539858ee919158b1fffd479c2c3eac90e20437a7da64"
         ),
         .binaryTarget(
             name: "SQLite",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/SQLite.xcframework.zip",
-            checksum: "17ae9ba240c8e910efc302fe768bb6837dd0f6287a72ee90ed6a2022fc790a62"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/SQLite.xcframework.zip",
+            checksum: "ea4260cd1c8b0558630d791d69f5dfbc3471835b3d7a74e19712e03be9587cfa"
         ),
         .binaryTarget(
             name: "SVGView",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/SVGView.xcframework.zip",
-            checksum: "8276e05ec5d33e3fdc7459ca44de6b7775902512af4c2fb93bed53a3e7727b38"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/SVGView.xcframework.zip",
+            checksum: "3dc7272a1758cd6211ea1a503e90d818d0c30dbc6d91789f4e4b69dbeb2e9f25"
         ),
         .binaryTarget(
             name: "ScaleTargetCore",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/ScaleTargetCore.xcframework.zip",
-            checksum: "788cf82035ed8329422e16f0e885724378fd3d193d765020a900817f8b1d842b"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/ScaleTargetCore.xcframework.zip",
+            checksum: "8c69ad9cefabf160df8b488e01b4cd777313fea6eee95efa9bfd6fdde49727f3"
         ),
         .binaryTarget(
             name: "Turf",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/Turf.xcframework.zip",
-            checksum: "2520f0f0281622701828f11fc7211ba433d78d3e5e19ae7ec69aefa916f01ba6"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/Turf.xcframework.zip",
+            checksum: "a3f8395900ee3101cb60395c044991ed22b6fa9bc61a8c6b1c776c300129f45e"
         ),
         .binaryTarget(
             name: "jsonlogic",
-            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.9/jsonlogic.xcframework.zip",
-            checksum: "98ff4cca58f9c0572cde3724e54fb0d35512e7d37f3f4587e2cfaffc89755dec"
+            url: "https://github.com/Cloneable-Inc/Cloneable-iOS-SDK/releases/download/1.4.10/jsonlogic.xcframework.zip",
+            checksum: "38aaa6559ed9e9e90d52912263ee205daea03135bb155329a1c29eafad133467"
         ),
     ]
 )
